@@ -1,0 +1,150 @@
+/* Reset básico */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    align-content: center;
+    align-items: center;
+}
+
+
+/* Contenedor principal */
+.main {
+    display: grid;
+    max-width: 70%;
+    padding: 50px;
+    place-content: center;
+    align-items: center;
+    position: relative;
+    left: 10%;
+  
+}
+
+
+.inicio{
+    display: flex;
+}
+
+ .uno{
+    background: red;
+  margin-top: 20px;
+    padding: 5%;
+    height: 70px;
+    border-radius: 10px;
+    height: 130px;
+}
+
+
+.dos{
+    background: red;
+  
+    margin-top: 20px;
+    padding: 5%;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.letra{
+    transform: rotate(270deg);
+    font-size: 3rem;
+    margin: 0;
+    position: absolute;
+
+}
+
+.ladoUno{
+    width: 100%; 
+    margin: 5%;
+    
+}
+
+.ladoDos{
+    width: 100%;
+    margin: 5%;
+   
+}
+
+.llamado-atencion{
+    display: flex;
+    margin-top: 15%;
+   place-content: center;
+   align-items: center;
+   
+}
+
+/* Sección de contenido */
+.content {
+    max-width: 40%;
+}
+
+h2 {
+    font-size: 36px;
+    color: black;
+}
+
+.register-btn {
+    background-color: #FF6B00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.solutions-link {
+    display: block;
+    color: blue;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+/* Tarjeta de código */
+.code-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+   background: black;
+    max-width: 45%;
+    margin-left: 10%;
+ 
+}
+.img-foo img{
+width: 100%;
+height: auto;
+    
+}
+
+.code-window {
+    background-color: #f3f3f3;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.code-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.code-content {
+
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.comment {
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 5px;
+}
