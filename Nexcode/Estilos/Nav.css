@@ -1,0 +1,59 @@
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+   
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0% 14%;
+    color: #333333;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    
+}
+
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 100px;
+    margin-left: 20px;
+   
+}
+
+.experience-btn {
+    background-color: #FF6B00;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.instagram-icon {
+    text-decoration: none;
+    font-weight: bold;
+    color: #E4405F;
+}
+
+.Instagram{
+    width: 20%;
+    height: auto;
+    display: flex;
+}

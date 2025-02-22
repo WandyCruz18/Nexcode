@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexcode</title>
+    <link rel="stylesheet" href="/Nexcode/Estilos/Nav.css">
+    <link rel="stylesheet" href="/Nexcode/Estilos/Contacto.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Nexcode/Estilos/footer.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1 class="logo">Nexcode</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="/Nexcode/html/index.html">Inicio</a></li>
+                <li><a href="/Nexcode/html/contacto.html">Contáctanos</a></li>
+                <li><a href="#">Ventajas</a></li>
+                <li><a href="/Nexcode/html/nosotros.html">Nosotros</a></li>
+                <li><a href="/Nexcode/html/login.html">Login</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <button class="experience-btn">Experiencias</button>
+            <img src="/Nexcode/Imagen/instagram-1-svgrepo-com.svg" alt="Instagram" class="Instagram">
+            <a href="#" class="instagram-icon">Instagram</a>
+        </div>
+    </header>
+
+    <main class="Main">
+        <article>
+            <div class="Titulo">
+                <h2>NEXCODE</h2>
+                <h3>EL FUTURO EN EL <br> DESARROLLO DE SOFTWARE</h3>
+            </div>
+            <section>
+                <div class="content-foo"> 
+                    <div class="img-content" data-aos="zoom-in" data-aos-duration="500">
+                        <img id="img-content-img" src="/Nexcode/Imagen/Chica-compu.png" alt="Persona trabajando en una computadora">
+                    </div>
+                    <div class="p-content">
+                        <p>
+                            Párrafo. Haz clic para editar y agregar tu propio texto. Es fácil. Haz clic en "Editar texto" o doble clic aquí 
+                            para agregar tu contenido y cambiar la fuente. Puedes arrastrar y soltar este texto donde quieras en tu página. 
+                            En este espacio puedes contar tu historia y permitir a los usuarios saber más sobre ti.
+                        </p>
+                        <p>
+                            Este es un buen espacio para contar más sobre tu compañía y servicios. Puedes usar este espacio para incorporar 
+                            más detalles sobre tu empresa. Escribe sobre tu equipo y los servicios que ofreces. Cuéntales a los visitantes 
+                            la historia sobre cómo se te ocurrió la idea de tu negocio y qué te diferencia de tus competidores. Haz que tu 
+                            empresa se destaque y muestra a los visitantes quién eres.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <article>
+            <section data-aos="fade-up">
+                <div class="contacto">
+                    <img id="imagen-call" src="/Nexcode/Imagen/Call.png" alt="Icono de llamada">
+                    <div class="contactos-content">
+                        <h2>Información</h2>
+                        <p>Información empresarial, dirección, horario de trabajo y teléfono de la empresa.</p>
+                    </div>
+                    <img id="imagen-mapa" src="/Nexcode/Imagen/mapa.png" alt="Ubicación en el mapa">
+                    <div class="padre-cajas-contacto">
+                        <div class="contacto-caja direccion">
+                            <h2>Dirección</h2>
+                            <p>Ubicación de la empresa.</p>
+                        </div>
+                        <img id="imagen-reloj" src="/Nexcode/Imagen/reloj-tiempo.png" alt="Horario de atención">
+                        <div class="contacto-caja">
+                            <h2>Horario</h2>
+                            <p>Lunes a Viernes de 9:00 AM a 6:00 PM.</p>
+                        </div>
+                        <div class="contacto-caja">
+                            <h2>Teléfono</h2>
+                            <p>+123 456 789</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <article>
+            <div class="form-container">
+                <form>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre">
+        
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono">
+        
+                    <label for="gmail">Gmail</label>
+                    <input type="email" id="gmail" name="gmail">
+        
+                    <label for="asunto">Asunto</label>
+                    <textarea id="asunto" name="asunto" rows="4"></textarea>
+        
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            </section>
+        </article>
+    </main>
+
+
+    <footer data-aos="fade-up">
+        <div class="programmer-card">
+            <img src="developer1.jpg" alt="Steven Paula">
+            <h3>Steven Paula</h3>
+            <p><strong>Desarrollador web, freelancer</strong></p>
+            <div class="skills">
+                <a href="#" class="portfolio-btn">PORTAFOLIO</a>
+                <span>JS</span>
+                <span>Git</span>
+                <span>Node.js</span>
+               
+            </div>
+          
+        </div>
+        <div class="programmer-card">
+            <img src="developer2.jpg" alt="Wandy Cruz">
+            <h3>Wandy Cruz</h3>
+            <p><strong>Desarrollador web, freelancer</strong></p>
+            <div class="skills">
+                <a href="#" class="portfolio-btn">PORTAFOLIO</a>
+                <span>JS</span>
+                <span>Git</span>
+                <span>Node.js</span>
+                
+            </div>
+            
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

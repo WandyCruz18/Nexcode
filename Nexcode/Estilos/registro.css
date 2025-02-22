@@ -1,0 +1,76 @@
+/* Reset básico */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 123, 255, 0.5);
+    position: relative;
+    border: none;
+    color: white;
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 12px;
+    color: gray;
+}
+
+/* Estilos para los grupos del formulario */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+/* Estilos para los inputs */
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    width: 95%;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
+}
+
+/* Botón */
+.btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

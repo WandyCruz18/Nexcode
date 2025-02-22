@@ -1,0 +1,186 @@
+/* Reset básico */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    align-content: center;
+    align-items: center;
+}
+
+
+/* Contenedor principal */
+.main {
+
+    display: grid;
+   
+    width: 70%;
+    padding: 50px;
+    place-items: center;
+    margin: auto;
+  
+}
+
+
+.inicio{
+    display: flex;
+}
+
+
+.uno, .dos {
+   background: #333333;
+    margin-top: 15px;
+   place-content: center;
+   align-items: center;
+    height: 15rem;
+    border-radius: 10px;
+    width: 30vw;
+}
+
+
+
+.letra{
+    transform: rotate(270deg);
+     scale: 4;
+    margin: 0;
+    margin-top: 17%;
+width: 10%;
+
+}
+
+.uno p , .dos p{
+    margin: 10px;
+    color: #f3f3f3;
+}
+
+.ladoUno{
+    width: 100%; 
+    height: auto;
+ 
+    
+}
+
+.ladoDos{
+    width: 100%;
+    height: auto;
+    
+   
+}
+
+.llamado-atencion{
+    
+    display: flex;
+    margin-top: 0%;
+   place-content: center;
+   align-items: center;
+  
+   
+   
+}
+
+.descripcion{
+    margin-top: 25%;
+}
+
+/* Sección de contenido */
+.content {
+    max-width: 40%;
+}
+
+.inicio .content img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+.inicio .content button:hover{
+    transform: scale(1.1);
+    transition: all .5s ease-out;
+}
+
+.experience-btn:hover{
+    transform: scale(1.1);
+    transition: all .5s ease-out;
+}
+
+.experience-btn{
+    animation: all .5s ease-out;
+}
+
+.comenta img{
+    width: 20%;
+    height: auto;
+}
+h2 {
+    font-size: 36px;
+    color: #333333;
+}
+
+.register-btn {
+    background-color: #FF6B00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.solutions-link {
+    display: block;
+    color: blue;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+/* Tarjeta de código */
+.code-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+   background: black;
+    max-width: 45%;
+    margin-left: 10%;
+    box-shadow: 0 10px 15px rgb(9, 42, 79);
+ 
+}
+.img-foo img{
+width: 100%;
+height: auto;
+    
+}
+
+.code-window {
+    background-color: #f3f3f3;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.code-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.code-content {
+
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.comment {
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
