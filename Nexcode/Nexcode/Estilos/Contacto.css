@@ -1,0 +1,185 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background: linear-gradient(white 55%,rgb(73, 151, 214));
+place-items: center;
+}
+
+/* Contenedor principal */
+.Main {
+justify-content: space-around;
+align-items: flex-start;
+padding: 50px;
+max-width: 992px;
+
+}
+/* Sección de contenido */
+.content-foo{
+display: flex;
+}
+.Titulo{
+margin: 0% 10%;
+}
+
+/*Imagen*/
+.img-content{
+margin: 3% 3%;
+}
+#img-content-img{
+height: 300px;
+}
+.p-content{
+width: 50%;
+margin: 3% 3%;
+}
+h2 {
+font-size: 36px;
+color: black;
+}
+h3 {
+font-size: 28px;
+font-weight: bold;
+color: black;
+}
+p {
+font-size: 16px;
+color: #333;
+margin: 15px 0px;
+}
+
+/*Contacto*/
+.contacto{
+text-align: center;
+position: relative;
+}
+.padre-cajas-contacto{
+display: flex;
+place-content: center;
+margin: 5% 0%;
+}
+.contacto-caja{
+z-index: 1;
+width: 20%;
+margin: 7% 3%;
+padding: 15px;
+border: solid 1px rgb(228, 228, 231);
+border-radius: 15px;
+text-align: left;
+}
+.contacto-caja h2{
+font-size: 20px;
+padding: 0;
+}
+.contacto-caja p{
+font-size: 15px;
+}
+.dirrecion{
+z-index: 2;
+}
+#imagen-mapa{
+position: absolute;
+left: 7%;
+top: 30%;
+height: 100px;
+z-index: 1;
+}
+#imagen-reloj{
+position: absolute;
+height: 50px;
+margin: 5% 0% 0% 19%;
+z-index: 1;
+}
+#imagen-call{
+position: absolute;
+top: 20%;
+right: 16%;
+height: 100px;
+z-index: 1;
+}
+
+.form-container {
+ 
+ margin-left: 27%;
+ background: rgba(255, 128, 0, 0.589);
+ padding: 20px;
+ border-radius: 10px;
+ width: 400px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+label {
+    color: #ffcccc;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eeeeee;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #003366;
+    padding: 50px 0;
+    color: white;
+    width: 100%;
+}
+.programmer-card {
+    
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+.programmer-card img {
+    width: 100px;
+    border-radius: 50%;
+}
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.portfolio-btn {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
